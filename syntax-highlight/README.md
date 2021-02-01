@@ -14,4 +14,4 @@ Visit the github projetct: [fluffy the programming language](https://github.com/
 
 * syntax-highlight
 
-![code](./assets/code.png)
+![code](https://raw.githubusercontent.com/Matbabs/Fluffy/main/assets/code.png)
