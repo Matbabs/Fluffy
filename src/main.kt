@@ -1,7 +1,7 @@
 //kotlinc ./src/*.kt -include-runtime -d ./fluffy.jar
 
 fun main (args: Array<String>){
-    println("\n\uD83D\uDC31 fluffy 0.1 \n")
+    println("\n\uD83D\uDC31 fluffy 1.0 \n")
     if(args.isNotEmpty()){
         val inputFile = args[0]
         val compilationFile = inputFile.split('.')[0] + ".cpp"
