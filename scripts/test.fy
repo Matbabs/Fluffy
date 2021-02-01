@@ -45,7 +45,7 @@ fun write do
     print "write function"
 end
 
-write
+write42 
 
 fun compute x,y do
     return x+y
