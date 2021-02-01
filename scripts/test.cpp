@@ -37,15 +37,10 @@ int main() {
 	cout<<"blabla"<<endl;
 	i = i+1;
 	};
-	auto write = [](){
-	cout<<"write function"<<endl;
-	};
-	write(fun);
-	auto compute
-	auto x,y){
+	auto compute = [](auto x, auto y){
 	return x+y;
 	};
-	auto res = compute;5,6
+	auto res = compute(5, 6);
 	cout<<res<<endl;
 	return 0;
 }

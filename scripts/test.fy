@@ -41,12 +41,6 @@ while i<k do
     i = i+1
 end
 
-fun write do
-    print "write function"
-end
-
-write42 
-
 fun compute x,y do
     return x+y
 end

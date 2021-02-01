@@ -1,3 +1,6 @@
+
+![fluffy](./assets/fluffy-alpha-128.png)
+
 # Fluffy the Programming Language
 
 Fluffy is a scripting language. It is an easy language and therefore the syntax style is closed to Lua. 

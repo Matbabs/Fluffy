@@ -3,6 +3,9 @@
     "displayName": "fluffy-syntax-highlight",
     "description": "fluffy language syntax highlight",
     "version": "0.0.1",
+    "icon": "assets/fluffy-icon-128.png",
+    "publisher": "matbabs",
+    "repository": "https://github.com/Matbabs/Fluffy",
     "engines": {
         "vscode": "^1.52.0"
     },
