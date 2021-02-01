@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "fluffy",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#int-and-bool"
+		},
+		{
+			"include": "#variables"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.fluffy",
+				"match": "\\b(if|then|else|elsif|while|for|do|end|fun|return)\\b"
+			},{
+				"name": "entity.name.function.fluffy",
+				"match": "\\b(print)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.fluffy",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.fluffy",
+					"match": "\\\\."
+				}
+			]
+		},
+		"int-and-bool": {
+			"patterns": [{
+				"name": "entity.name.type",
+				"match": "\\b[\\d]+\\b"
+			},{
+				"name": "entity.name.type",
+				"match": "\\b(true|false)\\b"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.fluffy",
+				"match": "\\b[\\w]+\\b"
+			}]
+		}
+		
+	},
+	"scopeName": "source.fluffy"
+}
