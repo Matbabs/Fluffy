@@ -1,5 +1,5 @@
 
-![fluffy](./assets/fluffy-alpha-128.png)
+![fluffy](./assets/fluffy-alpha-256.png)
 
 # Fluffy the Programming Language
 
