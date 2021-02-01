@@ -2,7 +2,7 @@
     "name": "fluffy",
     "displayName": "Fluffy",
     "description": "Fluffy language syntax highlight",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "icon": "assets/fluffy-icon-128.png",
     "publisher": "matbabs",
     "repository": "https://github.com/Matbabs/Fluffy",
