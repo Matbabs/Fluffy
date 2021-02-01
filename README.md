@@ -1,7 +1,10 @@
 
 ![fluffy](./assets/fluffy-alpha-256.png)
 
-# Fluffy the Programming Language
+# Fluffy the Programming 
+
+![](https://img.shields.io/static/v1.svg?label=Script&message=Proramming&color=e760a3)
+![](https://img.shields.io/static/v1.svg?label=Language&message=v1.0.0&color=edca9c)
 
 Fluffy is a scripting language. It is an easy language and therefore the syntax style is closed to Lua. 
 In order to keep a certain performance Fluffy is transpiled to C++.
@@ -11,32 +14,32 @@ In order to keep a certain performance Fluffy is transpiled to C++.
 ## Contents
 
 * [Dependencies and install](#dependencies-and-install)
-    * [Kotlin (jvm) and C++ (g++)](#kotlin-(jvm)-and-C++-(g++))
+    * [Kotlin and C++](#kotlin-and-c++)
         * [Build and run](#build-and-run)
-    * [Syntax highlight (vscode extension)](#Syntax-highlight-(vscode-extension))
+    * [Visual Studio Code Syntax highlight](#visual-studio-code-syntax-highlight)
 * [Language syntax](#Language-syntax)
-    * [Variables](#Variables)
+    * [Variables](#variables)
         * [int](#int)
         * [string](#string)
         * [bool](#bool)
     * [Expressions](#expressions)
         * [arithmetic](#arithmetic)
         * [boolean](#boolean)
-    * [Print](#Print)
-    * [Conditions](#Conditions)
+    * [Print](#print)
+    * [Conditions](#conditions)
         * [if](#if)
         * [else](#else)
         * [elsif](#elsif)
-    * [Loops](#Loops)
+    * [Loops](#loops)
         * [for](#for)
         * [while](#while)
-    * [Functions](#Functions)
+    * [Functions](#functions)
     
 # Dependencies and install
 
-## Kotlin (jvm) and C++ (g++)
+## Kotlin and C++
 
-First you need to use the `fluffy.jar` compiler located on this git repository.
+First you need to use the `fluffy.jar` compiler located on this git repository: [fluffy.jar compiler](https://github.com/Matbabs/Fluffy/fluffy.jar)
 
 The compiler was written in Kotlin. Therefore it is necessary to be able to run `.jar` programs. 
 Moreover Fluffy is a transpile language, so you need the C++ `g++` compiler.
@@ -47,13 +50,21 @@ The command below can be used to launch the compilation process:
 
 `java -jar fluffy.jar <file.fy>`
 
+> you can ease the use by adding a bash alias 
+>
+> `alias fluffy="java -jar <path>/fluffy.jar"`
+>
+> and use instead `fluffy <file.fy>`
+
 Run with:
 
 `./a.out`
 
-## Syntax highlight (vscode extension)
+## Visual Studio Code Syntax highlight
 
-A vscode extension is available on this git repository. It allows to visualize the Fluffy language thanks to syntax highlighting.
+A vscode extension is available : [Fluffy on vscode](https://marketplace.visualstudio.com/items?itemName=matbabs.fluffy). 
+
+It allows to visualize the Fluffy language thanks to syntax highlighting.
 
 # Language syntax
 
