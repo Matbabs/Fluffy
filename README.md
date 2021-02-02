@@ -1,7 +1,7 @@
 
 ![fluffy](./assets/fluffy-alpha-256.png)
 
-# Fluffy the Programming 
+# Fluffy the Programming Language
 
 ![](https://img.shields.io/static/v1.svg?label=Script&message=Proramming&color=e760a3)
 ![](https://img.shields.io/static/v1.svg?label=Language&message=v1.0.0&color=edca9c)
