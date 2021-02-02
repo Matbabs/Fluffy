@@ -14,8 +14,8 @@ In order to keep a certain performance Fluffy is transpiled to C++.
 ## Contents
 
 * [Dependencies and install](#dependencies-and-install)
-    * [Kotlin and C++](#kotlin-and-c++)
-        * [Build and run](#build-and-run)
+    * [Compiler](#Compiler)
+    * [Build and run](#build-and-run)
     * [Visual Studio Code Syntax highlight](#visual-studio-code-syntax-highlight)
 * [Language syntax](#Language-syntax)
     * [Variables](#variables)
@@ -37,12 +37,12 @@ In order to keep a certain performance Fluffy is transpiled to C++.
     
 # Dependencies and install
 
-## Kotlin and C++
+## Compiler
 
 First you need to use the `fluffy.jar` compiler located on this git repository: [fluffy.jar compiler](https://github.com/Matbabs/Fluffy/blob/main/fluffy.jar)
 
-The compiler was written in Kotlin. Therefore it is necessary to be able to run `.jar` programs. 
-Moreover Fluffy is a transpile language, so you need the C++ `g++` compiler.
+The compiler was written in __Kotlin__. Therefore it is necessary to be able to run `.jar` programs. 
+Moreover Fluffy is a transpile language, so you need the __C++__ `g++` compiler.
 
 ### Build and run
 
