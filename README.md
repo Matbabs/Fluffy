@@ -11,6 +11,8 @@ In order to keep a certain performance Fluffy is transpiled to C++.
 
 > The goal of this project was to learn how to make a transpiler. In fact, this is the first attempt to create a programming language. 
 
+![](./assets/code.png)
+
 ## Contents
 
 * [Dependencies and install](#dependencies-and-install)
