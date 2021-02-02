@@ -44,7 +44,7 @@ First you need to use the `fluffy.jar` compiler located on this git repository: 
 The compiler was written in __Kotlin__. Therefore it is necessary to be able to run `.jar` programs. 
 Moreover Fluffy is a transpile language, so you need the __C++__ `g++` compiler.
 
-### Build and run
+## Build and run
 
 The command below can be used to launch the compilation process: 
 
